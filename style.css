@@ -11,8 +11,8 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
     padding-top: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
     padding-bottom: 60px;
 }
 
@@ -36,6 +36,7 @@ a {
 .left-items {
     font-size: 24px;
     font-weight: bold;
+    
 }
 
 .right-items {
@@ -46,14 +47,69 @@ a {
 .awesome {
     display: flex;
     justify-content: space-between;
+    flex:1;
+}
+
+.awesome-text {
+    display:flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button{
+    background-color:#3882F6;
+    width:100px;
+    height:50px;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+.image {
+    padding:30px 70px;
+    background-color: grey;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .content {
+    display:flex;
+    flex-direction: column;
     background-color: white;
+    align-items: center;
+}
+
+.boxes {
+    display:flex;
+    gap:15px;
+}
+
+.title-two{
+    padding:30px;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 .quote {
     background-color: #E5E7EB ;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 200px;
 }
 
 .action{
@@ -64,4 +120,6 @@ a {
 .footer {
     background-color: #1F2937;
     color: white;
+    display: flex;
+    justify-content: center;
 }
